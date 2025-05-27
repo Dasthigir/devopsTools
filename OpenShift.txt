@@ -1,0 +1,28 @@
+6. OpenShift
+Builds on Kubernetes, Red Hat’s enterprise offering.
+
+✅ Topics to Learn:
+OpenShift vs Kubernetes
+
+Installing OpenShift CLI (oc)
+
+Key OpenShift Concepts:
+
+Projects (Namespaces)
+
+Routes (vs Ingress in Kubernetes)
+
+Source-to-Image (S2I)
+
+Web Console Usage
+
+RBAC and OAuth Integration
+
+BuildConfig and ImageStream
+
+CI/CD Pipelines (Tekton)
+
+Monitoring and Logging
+
+Security Context Constraints (SCC)
+

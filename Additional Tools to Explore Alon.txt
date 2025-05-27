@@ -1,0 +1,27 @@
+🧩 Additional Tools to Explore Along the Way:
+Git and GitOps: Use with ArgoCD or Flux for Kubernetes/OpenShift.
+
+Container Registries: Docker Hub, Quay, Harbor
+
+Cloud Providers: AWS/GCP/Azure (Basics of networking + managed Kubernetes/OpenShift services)
+
+📚 Suggested Learning Resources:
+Books:
+
+“Docker Deep Dive” by Nigel Poulton
+
+“The Kubernetes Book” by Nigel Poulton
+
+Courses:
+
+Docker and Kubernetes on Udemy (Mumshad Mannambeth’s course is popular)
+
+Red Hat OpenShift courses on edX
+
+Hands-on Labs:
+
+Play with Kubernetes: play-with-k8s.com
+
+Katacoda (discontinued but archives available)
+
+Minikube, Kind, or OpenShift Local for local setup

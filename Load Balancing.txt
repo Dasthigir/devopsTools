@@ -1,0 +1,21 @@
+3. Load Balancing
+Critical in distributed/cloud systems.
+
+✅ Topics to Learn:
+What is Load Balancing
+
+Types:
+
+Layer 4 (Transport): Based on IP and port
+
+Layer 7 (Application): Based on HTTP content
+
+Algorithms: Round-robin, Least Connections, IP Hash
+
+Sticky Sessions
+
+Health Checks
+
+SSL Termination
+
+Popular Tools: HAProxy, NGINX, AWS ELB, Traefik

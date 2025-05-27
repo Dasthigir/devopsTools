@@ -1,0 +1,43 @@
+5. Kubernetes
+Once you understand Docker well.
+
+✅ Topics to Learn:
+Kubernetes Architecture:
+
+Master node, Worker node, API Server, etcd, Scheduler, Controller
+
+Kubernetes Objects:
+
+Pods
+
+ReplicaSets
+
+Deployments
+
+Services (ClusterIP, NodePort, LoadBalancer)
+
+Namespaces
+
+Networking in Kubernetes:
+
+Cluster networking
+
+CNI plugins
+
+DNS in Kubernetes
+
+Persistent Storage:
+
+Volumes, Persistent Volumes (PV), Persistent Volume Claims (PVC)
+
+Config Management:
+
+ConfigMaps, Secrets
+
+Helm (Optional but useful): Package management for Kubernetes
+
+RBAC (Security): Roles and bindings
+
+Health Checks: Liveness and Readiness Probes
+
+Logs and Monitoring: kubectl logs, Prometheus, Grafana

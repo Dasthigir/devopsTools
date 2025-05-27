@@ -1,0 +1,41 @@
+2. DNS (Domain Name System)
+Helps map hostnames to IPs. Essential for services to communicate.
+
+✅ Topics to Learn:
+What is DNS: Name resolution, FQDN.
+In simple terms, DNS (Domain Name System) is a system that translates human-friendly domain names (like www.example.com) into IP addresses (like 192.0.2.1) that computers use to communicate. FQDN (Fully Qualified Domain Name) is the complete and unambiguous domain name, including the hostname and the entire domain hierarchy, used to locate a resource on the internet. DNS resolution is the process of converting an FQDN into an IP address. 
+Elaboration:
+1. DNS (Domain Name System):
+DNS is a distributed, hierarchical naming system that maps domain names to IP addresses. 
+It's essential for the internet because it allows users to access websites and services using easy-to-remember names instead of numerical IP addresses. 
+DNS uses a network of servers that work together to resolve domain names. 
+When you type a domain name into a web browser, your computer's DNS resolver (the client side of DNS) queries these servers to find the corresponding IP address. 
+2. FQDN (Fully Qualified Domain Name):
+An FQDN is a complete, unambiguous name that identifies a host or resource in the DNS hierarchy. 
+It includes the hostname (e.g., www), the domain name (e.g., example.com), and potentially the top-level domain (e.g., .com). 
+An FQDN is typically followed by a trailing dot (e.g., www.example.com.). 
+FQDNs are used in various applications, such as accessing websites, connecting to remote servers, and configuring email services. 
+3. DNS Resolution:
+DNS resolution is the process by which a DNS server translates an FQDN into an IP address. 
+This process is crucial for routing traffic on the internet and allows computers to locate and communicate with each other. 
+DNS resolution involves querying a network of DNS servers to find the IP address associated with the FQDN. 
+The returned IP address is then used by the client (e.g., web browser, email client) to connect to the resource. 
+************************
+DNS Record Types: A, AAAA
+
+CNAME
+
+MX
+
+NS
+
+TXT (useful for verifications)
+
+Forward vs Reverse DNS
+
+TTL and Caching
+
+Public DNS vs Internal DNS
+
+Troubleshooting DNS with tools: nslookup, dig, host
+

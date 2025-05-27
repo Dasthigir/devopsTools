@@ -1,0 +1,33 @@
+4. Docker
+Start containerization here.
+
+✅ Topics to Learn:
+What is a container vs VM
+
+Docker Architecture
+
+Installing Docker
+
+Docker CLI Commands
+
+docker run, build, exec, logs, ps, images, network
+
+Dockerfile: Creating custom images
+
+Volumes: Persistent data
+
+Networking in Docker
+
+Bridge, Host, None, Custom Networks
+
+Port Mapping
+
+Docker Compose:
+
+docker-compose.yml basics
+
+Multi-container setups
+
+Best Practices: Small images, non-root user, caching layers
+
+Security basics: Docker Bench, image scanning
