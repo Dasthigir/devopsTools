@@ -24,6 +24,19 @@ To automate reloading the catalog, we use a webhook that triggers a specific Jen
 
 If it doesn't already exist, create a Freestyle or Pipeline job in Jenkins named:
 
+Freestyle job:
+import jenkins.model.*
+
+def templateCatalogDescriptor = Jenkins.instance.getDescriptor("org.boozallen.plugins.jte.catalog.TemplateCatalog")
+if (templateCatalogDescriptor) {
+    templateCatalogDescriptor.loadCatalogs()
+    println "Pipeline Template Catalogs reloaded successfully."
+} else {
+    println "Template Catalog Descriptor not found."
+}
+
+Pipeline job
+
 ```
 Run Catalog import now
 ```
